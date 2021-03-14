@@ -1,5 +1,5 @@
 "use strict";
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
     var charts = document.querySelectorAll("pre.chartjs");
     for (var i = 0; i < charts.length; i++) {
 	try {
