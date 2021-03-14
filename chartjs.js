@@ -17,7 +17,6 @@ window.addEventListener("load", function() {
 		canvas.height = dims[2];
 	}
         charts[i].replaceWith(canvas);
-        var ctx = document.getElementById(canvas.id).getContext('2d');
-        var myChart = new Chart(ctx, chartDef);
+        var myChart = new Chart(canvas.getContext('2d'), chartDef);
     }
 });
