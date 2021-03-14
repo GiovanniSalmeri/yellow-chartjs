@@ -10,7 +10,6 @@ window.addEventListener("load", function() {
 		return;
 	}
         var canvas = document.createElement("canvas");
-        canvas.id = "chartjs"+i;
 	var dims = charts[i].firstChild.textContent.match(/^\/\/\s*(\d+)\s+(\d+)/);
 	if (dims) {
 		canvas.width = dims[1];
