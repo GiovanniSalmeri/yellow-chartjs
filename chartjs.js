@@ -2,8 +2,9 @@
 window.addEventListener("DOMContentLoaded", function() {
     var charts = document.querySelectorAll("pre.chartjs");
     for (var i = 0; i < charts.length; i++) {
+	var cleanContent = charts[i].firstChild.textContent.replace(/\/\/.*/gm, "");
 	try {
-		JSON.parse(charts[i].firstChild.textContent.replace(/\/\/.*/gm, ""));
+		JSON.parse(cleanContent);
 	} catch (e) {
 		charts[i].firstChild.textContent = "Invalid JSON";
 		charts[i].style.display = "block";
@@ -18,7 +19,7 @@ window.addEventListener("DOMContentLoaded", function() {
 	}
         var script = document.createElement("script");
         script.text = "var ctx = document.getElementById('"+canvas.id+"').getContext('2d');\n"
-        script.text += "var myChart = new Chart(ctx, "+charts[i].firstChild.textContent+");";
+        script.text += "var myChart = new Chart(ctx, "+cleanContent+");";
         charts[i].insertAdjacentElement("beforebegin", canvas);
         charts[i].replaceWith(script);
     }
