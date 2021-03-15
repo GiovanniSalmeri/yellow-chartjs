@@ -1,5 +1,5 @@
 <?php
-// Script extension, https://github.com/GiovanniSalmeri/yellow-script
+// Chartjs extension, https://github.com/GiovanniSalmeri/yellow-chartjs
 
 class YellowChartjs {
     const VERSION = "0.8.16";
