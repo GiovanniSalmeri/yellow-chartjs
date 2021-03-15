@@ -4,10 +4,10 @@ window.addEventListener("load", function() {
     for (var i = 0; i < charts.length; i++) {
         try {
             var chartDef = JSON.parse(charts[i].firstChild.textContent.replace(/\/\/.*/gm, ""));
-        } catch (e) {
-            charts[i].firstChild.textContent = "Invalid JSON";
+        } catch (error) {
+            charts[i].firstChild.textContent = error;
             charts[i].style.display = "block";
-            return;
+            continue;
         }
         var canvas = document.createElement("canvas");
         if (Array.isArray(chartDef.options.canvasDimensions)) {
