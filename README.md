@@ -61,4 +61,4 @@ Adding a chart:
 
 ## Developer
 
-Example. [Get help](https://github.com/GiovanniSalmeri/yellow-chartjs/issues).
+Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-chartjs/issues).
