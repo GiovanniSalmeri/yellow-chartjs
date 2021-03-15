@@ -2,6 +2,8 @@ Chartjs 0.8.16
 =================
 Animated and responsive charts.
 
+<p align="center"><img src="chartjs-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
+
 ## How to add a chart
 
 This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in a codeblock with the class `chartjs`.
