@@ -6,7 +6,7 @@ Animated and responsive charts.
 
 ## How to add a chart
 
-This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in a codeblock with the class `chartjs`.
+This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in a codeblock with the class `chartjs`. You cannot use comments (`//` or `/* */`) in this block.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
 
@@ -42,8 +42,8 @@ Adding a chart:
             }]
         },
         "options": {
-            "canvasDimensions": [800, 400], // add here the dimensions of the chart
-            "responsive": true, // set responsive to false for the canvas dimensions to be respected
+            "canvasDimensions": [800, 400],
+            "responsive": true,
             "scales": {
                 "yAxes": [{
                     "ticks": {

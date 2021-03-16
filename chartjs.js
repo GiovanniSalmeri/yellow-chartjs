@@ -3,7 +3,7 @@ window.addEventListener("load", function() {
     var charts = document.querySelectorAll("pre.chartjs");
     for (var i = 0; i < charts.length; i++) {
         try {
-            var chartDefinition = JSON.parse(charts[i].firstChild.textContent.replace(/\/\/.*/gm, ""));
+            var chartDefinition = JSON.parse(charts[i].firstChild.textContent);
         } catch (error) {
             charts[i].firstChild.textContent = error;
             charts[i].style.display = "block";
