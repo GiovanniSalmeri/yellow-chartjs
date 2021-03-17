@@ -6,9 +6,15 @@ Animated and responsive charts.
 
 ## How to add a chart
 
-This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in a codeblock with the class `chartjs`. You cannot use comments (`//` or `/* */`) in this block.
+This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
+
+The syntax of JSON is stricter than the JavaScript Object Literal notation:
+
++ quotes are only double `"`
++ keys must be always quoted
++ comments (`//` or `/* */`) are not allowed.
 
 ## Examples
 
