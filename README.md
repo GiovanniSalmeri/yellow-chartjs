@@ -16,6 +16,8 @@ The syntax of JSON is stricter than the JavaScript Object Literal notation:
 + keys must be always quoted
 + comments (`//` or `/* */`) are not allowed.
 
+There are online services (for example [ConvertOnline](https://www.convertonline.io/convert/js-to-json)) which automatically transform JavaScript into JSON.
+
 ## Examples
 
 Adding a chart:
