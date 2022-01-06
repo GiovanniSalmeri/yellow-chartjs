@@ -1,3 +1,5 @@
+// Chartjs extension, https://github.com/GiovanniSalmeri/yellow-chartjs
+
 "use strict";
 window.addEventListener("DOMContentLoaded", function() {
     var charts = document.querySelectorAll("pre.chartjs");
