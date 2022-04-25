@@ -4,7 +4,7 @@ Animated and responsive charts.
 
 <p align="center"><img src="chartjs-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to add a chart
+## How to show a chart
 
 This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
 
@@ -20,7 +20,7 @@ There are online services (for example [ConvertOnline](https://www.convertonline
 
 ## Examples
 
-Adding a chart:
+Showing a chart:
 
     ```chartjs
     {
