@@ -6,7 +6,7 @@ Animated and responsive charts.
 
 ## How to show a chart
 
-Chartjs is a graphic engine [Chartjs](https://www.chartjs.org/). To use this extension insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
+[Chartjs](https://www.chartjs.org/) is a graphic engine. To use this extension insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
 
