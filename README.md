@@ -1,4 +1,4 @@
-Chartjs 0.8.16
+Chartjs 0.8.20
 =================
 Animated and responsive charts.
 
@@ -6,7 +6,7 @@ Animated and responsive charts.
 
 ## How to show a chart
 
-This extension uses the graphic engine [Chartjs](https://www.chartjs.org/). Insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
+Chartjs is a graphic engine [Chartjs](https://www.chartjs.org/). To use this extension insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
 
@@ -66,6 +66,8 @@ Showing a chart:
 ## Installation
 
 [Download extension](https://github.com/GiovanniSalmeri/yellow-chartjs/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+
+This extension uses [Chartjs](https://www.chartjs.org/).
 
 ## Developer
 
