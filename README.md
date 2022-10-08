@@ -65,7 +65,7 @@ Showing a chart:
 
 ## Installation
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-chartjs/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/GiovanniSalmeri/yellow-chartjs/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 This extension uses [Chartjs](https://www.chartjs.org/).
 
