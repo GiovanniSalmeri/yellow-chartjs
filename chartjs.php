@@ -7,7 +7,7 @@ class YellowChartjs {
 
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-   }
+    }
 
     // Handle page extra data
     public function onParsePageExtra($page, $name) {

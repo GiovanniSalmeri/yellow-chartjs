@@ -71,4 +71,4 @@ This extension uses [Chartjs](https://www.chartjs.org/).
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-chartjs/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
