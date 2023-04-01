@@ -4,9 +4,15 @@ Animated and responsive charts.
 
 <p align="center"><img src="chartjs-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/GiovanniSalmeri/yellow-chartjs/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to show a chart
 
-[Chartjs](https://www.chartjs.org/) is a graphic engine. To use this extension insert the data for the chart in JSON, inside a codeblock with the class `chartjs`.
+[Chartjs](https://www.chartjs.org/) is a graphic engine that allows to define a chart in JSON. 
+
+To use this extension insert the JSON data with a code block. Wrap the data in \`\`\` and add the language identifier `chartjs`.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
 
@@ -22,7 +28,7 @@ There are online services (for example [ConvertOnline](https://www.convertonline
 
 Showing a chart:
 
-    ```chartjs
+    ``` chartjs
     {
         "type": "bar",
         "data": {
@@ -63,12 +69,10 @@ Showing a chart:
     }
     ```
 
-## Installation
+## Acknowledgements
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-chartjs/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
-This extension uses [Chartjs](https://www.chartjs.org/).
+This extension includes [Chartjs 3.9.1](https://www.chartjs.org/). Thank you for the good work.
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
