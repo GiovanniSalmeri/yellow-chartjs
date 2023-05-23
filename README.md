@@ -10,19 +10,21 @@ Animated and responsive charts.
 
 ## How to show a chart
 
-[Chartjs](https://www.chartjs.org/) is a graphic engine that allows to define a chart in JSON. 
+[Chartjs](https://www.chartjs.org/) is a graphic engine that allows to define a chart in JavaScript Object Literal notation. 
 
-To use this extension insert the JSON data with a code block. Wrap the data in \`\`\` and add the language identifier `chartjs`.
+Insert the data translated in JSON with a code block. Wrap the data in \`\`\` and add the language identifier `chartjs`.
 
 Add to the `options` a setting `"canvasDimensions": [width, height]` and set `"responsive": false` if you want to assign a fixed dimension to the chart.
 
-The syntax of JSON is stricter than the JavaScript Object Literal notation:
+## How to translate JavaScript Object Literal notation in JSON
 
-+ quotes are only double `"`
+JavaScript Object Literal notation in JSON are almost identical, but the syntax of JSON is stricter:
+
++ there are only double quotes `"`
 + keys must be always quoted
 + comments (`//` or `/* */`) are not allowed.
 
-There are online services (for example [ConvertOnline](https://www.convertonline.io/convert/js-to-json)) which automatically transform JavaScript into JSON.
+There are online services (for example [ConvertOnline](https://www.convertonline.io/convert/js-to-json)) which automatically transform JavaScript Object Literal notation into JSON.
 
 ## Examples
 
