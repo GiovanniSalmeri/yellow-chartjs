@@ -1,5 +1,5 @@
-Chartjs 0.8.20
-=================
+# Chartjs 0.9.1
+
 Animated and responsive charts.
 
 <p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>

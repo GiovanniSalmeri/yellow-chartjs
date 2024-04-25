@@ -2,7 +2,7 @@
 // Chartjs extension, https://github.com/GiovanniSalmeri/yellow-chartjs
 
 class YellowChartjs {
-    const VERSION = "0.8.20";
+    const VERSION = "0.9.1";
     public $yellow;         // access to API
 
     public function onLoad($yellow) {
@@ -13,10 +13,10 @@ class YellowChartjs {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}chartjs.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}chartjs-init.js\"></script>\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}chartjs.min.js\"></script>\n";
+            $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}chartjs.css\" />\n";
+            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}chartjs-init.js\"></script>\n";
+            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}chartjs.min.js\"></script>\n";
         }
         return $output;
     }
