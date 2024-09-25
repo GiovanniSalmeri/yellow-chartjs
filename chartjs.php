@@ -2,7 +2,7 @@
 // Chartjs extension, https://github.com/GiovanniSalmeri/yellow-chartjs
 
 class YellowChartjs {
-    const VERSION = "0.9.1";
+    const VERSION = "0.9.2";
     public $yellow;         // access to API
 
     public function onLoad($yellow) {
