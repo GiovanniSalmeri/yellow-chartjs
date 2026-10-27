@@ -1,8 +1,8 @@
-# Chartjs 0.9.2
+# Chartjs 1.0.0
 
-Animated and responsive charts.
+Animated and responsive charts. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -97,8 +97,6 @@ Showing a pie chart:
 
 ## Acknowledgements
 
-This extension includes [Chartjs 4.4.4](https://www.chartjs.org/). Thank you for the good work.
+This extension includes [Chartjs 4.4.4](https://www.chartjs.org/). Thank you for the useful library.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
